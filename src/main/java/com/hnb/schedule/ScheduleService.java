@@ -1,12 +1,9 @@
-package com.hnb.mapper;
+package com.hnb.schedule;
 
 import java.util.List;
 
-import org.springframework.stereotype.Repository;
+public interface ScheduleService {
 
-import com.hnb.schedule.ScheduleVO;
-@Repository
-public interface ScheduleMapper {
 	public List<String> getRateList();
 	public List<String> getAscList();
 	public List<String> getTheaterList();

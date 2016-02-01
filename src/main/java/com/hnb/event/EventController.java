@@ -47,4 +47,5 @@ public class EventController {
 		model.addAttribute("count", count);
 		return "event/boardSearch.tiles";
 	}
+	
 }
